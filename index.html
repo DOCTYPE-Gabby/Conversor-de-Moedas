@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="Container">
+        <p>Quantia:</p>
+        <div class="Quantia">
+            <input type="text" name="quantia" id="input1" placeholder="Valor...">
+            <img id="img1" src="">
+            <select id="select-1" value="Currency-select">
+                <option>Selecione Uma Opção</option>
+                <option class="Currency" value="brl">BRL</option>
+                <option class="Currency" value="usd">USD</option>
+                <option class="Currency" value="eur">EUR</option>
+                <option class="Currency" value="gbp">GBP</option>
+                <option class="Currency" value="inr">INR</option>
+            </select>
+        </div>
+        <span id="error">Erro! Digite Apenas Números</span>
+        <a id="swap">
+            <img src="Images/arrow-up-down-svgrepo-com.svg">
+        </a>
+        <p>Converter Para:</p>
+        <div class="Converted">
+            <input type="text" name="input2" id="input2" placeholder="Valor convertido" readonly>
+            <img id="img2" src="Images/Usa.png">
+            <select id="select-2">
+                <option>Selecione Uma Opção</option>
+                <option class="Currency-2" id="brl-2">BRL</option>
+                <option class="Currency-2" id="usd-2">USD</option>
+                <option class="Currency-2" id="eur-2">EUR</option>
+                <option class="Currency-2" id="gbp-2">GBP</option>
+                <option class="Currency-2" id="inr-2">INR</option>
+            </select>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

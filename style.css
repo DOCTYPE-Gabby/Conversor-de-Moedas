@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008000;
+}
+
+a {
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+    margin: 2px auto;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    height: 50%;
+    width: 30%;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.Quantia {
+    border: 2px solid grey;
+    height: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Converted {
+    border: 2px solid grey;
+    height: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 45%;
+    height: 95%;
+    border-style: none;
+    text-indent: 5px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+option {
+    border-style: none;
+}
+
+option:focus {
+    outline: none;
+}
+
+select {
+    border-style: none;
+    height: 100%;
+    background-color: transparent;
+}
+
+p {
+    margin: 2px auto 0px 0px;
+}
+
+#error {
+    height: 20px;
+    text-align: center;
+    color: red;
+    display: none;
+    margin: 1px;
+}
